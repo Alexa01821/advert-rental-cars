@@ -1,14 +1,18 @@
 import { Route, Routes } from 'react-router-dom';
 import Layout from 'components/Layout';
-// import Loader from 'components/Loader';
+import Loader from 'components/Loader';
 import HomePage from 'pages/HomePage';
 import CatalogPage from 'pages/CatalogPage';
 import FavoritesCarsPage from 'pages/FavoritesCarsPage';
+import { selectIsLoading } from '../../redux/cars/selectors';
+import { useSelector } from 'react-redux';
 
 const App = () => {
+  const openLoader = useSelector(selectIsLoading);
+
   return (
     <>
-      {/* <Loader /> */}
+      {openLoader && <Loader />}
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />

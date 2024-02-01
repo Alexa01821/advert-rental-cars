@@ -10,7 +10,7 @@ const Loader = () => {
       wrapperStyle={{
         display: 'flex',
         position: 'fixed',
-        zIndex: theme => theme.zIndex.drawer + 1,
+        zIndex: 100,
         top: '0',
         left: '0',
         justifyContent: 'center',
@@ -20,7 +20,7 @@ const Loader = () => {
         backgroundColor: `var(--bg-back-modal)`,
       }}
       wrapperClass=""
-      visible={true}
+      visible={false}
     />
   );
 };

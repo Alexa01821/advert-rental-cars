@@ -7,14 +7,17 @@
   --bg-btn: rgba(52, 112, 255, 1);
   --bg-btn-hover: rgba(11, 68, 205, 1);
   --bg-scrollbar-thumb: rgba(18, 20, 23, 0.05);
+  --bg-footer: rgba(18, 20, 23, 0.7);
   --gradient: rgba(18, 20, 23, 1), rgba(18, 20, 23, 0);
 
   /* text */
   --color-text: rgba(18, 20, 23, 1);
   --color-text-pr50: rgba(18, 20, 23, 0.5);
   --color-text-accent: rgba(52, 112, 255, 1);
+  --bg-scrollbar-thumb: rgba(18, 20, 23, 0.05);
   --color-search: rgba(138, 138, 137, 1);
   --color-search-text: rgba(247, 247, 251, 1);
+  --color-menu: rgba(247, 247, 251, 0.5);
   --color-search-dropdown: rgba(18, 20, 23, 0.05);
 
   /* border */
@@ -65,6 +68,7 @@
 }
 
 body {
+  height: 100%;
   margin: 0;
   font-family: 'Manrope', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -101,4 +105,8 @@ img {
   display: block;
   line-height: 0;
   height: auto;
+}
+
+a {
+  text-decoration: none;
 }
