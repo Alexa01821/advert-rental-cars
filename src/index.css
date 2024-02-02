@@ -7,8 +7,9 @@
   --bg-btn: rgba(52, 112, 255, 1);
   --bg-btn-hover: rgba(11, 68, 205, 1);
   --bg-scrollbar-thumb: rgba(18, 20, 23, 0.05);
-  --bg-footer: rgba(18, 20, 23, 0.7);
+  --bg-footer: rgba(87, 88, 103, 1);
   --gradient: rgba(18, 20, 23, 1), rgba(18, 20, 23, 0);
+  --gradient-hero: rgba(18, 20, 23, 0.9), rgba(18, 20, 23, 0.4);
 
   /* text */
   --color-text: rgba(18, 20, 23, 1);
@@ -109,4 +110,9 @@ img {
 
 a {
   text-decoration: none;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }

@@ -1,16 +1,12 @@
-import React from 'react';
+import Logo from 'components/Logo';
 import HeaderStyled from './HeaderStyled';
-import { Link, NavLink } from 'react-router-dom';
-import CarRentalIcon from '@mui/icons-material/CarRental';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
     <HeaderStyled>
       <nav className="header-container">
-        <Link className="logo-box" aria-label="Welcome page" to="/">
-          <CarRentalIcon className="logo-svg" />
-          Rental Cars
-        </Link>
+        <Logo />
 
         <ul className="nav-list">
           <li className="nav-item">
