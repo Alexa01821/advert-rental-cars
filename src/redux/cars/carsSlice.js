@@ -1,17 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { fetchCarById, fetchCars } from './operations';
-import {
-  handleFulfilledAll,
-  handleFulfilledById,
-  handlePending,
-  handleRejected,
-} from './carsHelpers';
+import { handleFulfilledAll, handleFulfilledById } from './carsHelpers';
 
 export const carsInitialState = {
   cars: [],
   carById: {},
-  isLoading: false,
-  error: null,
 };
 
 const carsSlice = createSlice({
@@ -19,13 +12,9 @@ const carsSlice = createSlice({
   initialState: carsInitialState,
   extraReducers: builder => {
     builder
-      .addCase(fetchCars.pending, handlePending)
       .addCase(fetchCars.fulfilled, handleFulfilledAll)
-      .addCase(fetchCars.rejected, handleRejected)
 
-      .addCase(fetchCarById.pending, handlePending)
-      .addCase(fetchCarById.fulfilled, handleFulfilledById)
-      .addCase(fetchCarById.rejected, handleRejected);
+      .addCase(fetchCarById.fulfilled, handleFulfilledById);
   },
 });
 

@@ -32,21 +32,12 @@ const HomePageStyled = styled.div`
         width: 169px;
         height: 56px;
         padding: 16px 32px;
-        color: var(--color-search-text);
-        background: var(--bg-btn);
-        border-radius: 14px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-
-        &:hover,
-        &:focus {
-          background: var(--bg-btn-hover);
-        }
       }
     }
   }
 
   .option {
-    margin-bottom: 120px;
+    margin-bottom: 80px;
     .option-list {
       display: flex;
       flex-wrap: wrap;

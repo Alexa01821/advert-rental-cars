@@ -6,13 +6,13 @@ import Footer from 'components/Footer';
 
 const Layout = () => {
   return (
-    <>
+    <LayoutStyled>
       <Header />
-      <LayoutStyled>
+      <main className="outlet">
         <Outlet />
-      </LayoutStyled>
+      </main>
       <Footer />
-    </>
+    </LayoutStyled>
   );
 };
 

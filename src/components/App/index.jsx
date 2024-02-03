@@ -4,7 +4,7 @@ import Loader from 'components/Loader';
 import HomePage from 'pages/HomePage';
 import CatalogPage from 'pages/CatalogPage';
 import FavoritesCarsPage from 'pages/FavoritesCarsPage';
-import { selectIsLoading } from '../../redux/cars/selectors';
+import { selectIsLoading } from '../../redux/appState/appSelectors';
 import { useSelector } from 'react-redux';
 
 const App = () => {

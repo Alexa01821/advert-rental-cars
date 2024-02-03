@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const FooterStyled = styled.footer`
   background-color: var(--bg-footer);
+  margin-top: auto;
 
   .footer-container {
     display: flex;
@@ -38,6 +39,7 @@ const FooterStyled = styled.footer`
     }
     .footer-soc-list {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       gap: 16px;
 
@@ -56,6 +58,11 @@ const FooterStyled = styled.footer`
             width: 24px;
             height: 24px;
             fill: var(--color-search-text);
+          }
+
+          &:hover,
+          &:focus {
+            background: var(--bg-btn-hover);
           }
         }
       }

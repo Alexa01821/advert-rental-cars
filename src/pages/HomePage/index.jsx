@@ -12,7 +12,11 @@ const HomePage = () => {
       <section className="hero">
         <div className="hero-container">
           <h1 className="title-page">Effective Solutions for Your Lives</h1>
-          <Link className="hero-link" aria-label="Catalog page" to="/catalog">
+          <Link
+            className="hero-link btn"
+            aria-label="Catalog page"
+            to="/catalog"
+          >
             Go to catalog
           </Link>
         </div>
