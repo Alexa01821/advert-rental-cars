@@ -13,18 +13,18 @@ import { carsReducer } from './cars/carsSlice';
 import { filtersReducer } from './filters/filtersSlice';
 import persistReducer from 'redux-persist/es/persistReducer';
 import { appReducer } from './appState/appSlice';
+import { carsFavoritesReducer } from './carsFavorites/carsFavoritesSlice';
 
-const carsFavoritePersistConfig = {
-  key: 'cars',
+const carsFavoritesPersistConfig = {
+  key: 'favorites',
   storage,
-  whitelist: [],
 };
 
 export const store = configureStore({
   reducer: {
-    carsFavoritePersistConfig: persistReducer(
-      carsFavoritePersistConfig,
-      carsReducer
+    carsFavorites: persistReducer(
+      carsFavoritesPersistConfig,
+      carsFavoritesReducer
     ),
     cars: carsReducer,
     filters: filtersReducer,

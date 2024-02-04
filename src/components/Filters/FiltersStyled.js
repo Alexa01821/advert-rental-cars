@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const FilterStyled = styled.form`
   display: flex;
   align-items: end;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 18px;
 

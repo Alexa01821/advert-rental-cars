@@ -4,8 +4,8 @@ import { selectFilters } from '../../redux/filters/selectors';
 import getCustomStyles from './customStyled';
 import FilterStyled from './FiltersStyled';
 import { useState } from 'react';
-import priceList from '../../Helpers/PriceRange';
-import formatMileage from 'Helpers/formatMileage';
+import priceList from '../../helpers/PriceRange';
+import formatMileage from '../../helpers/formatMileage';
 import { Notify } from 'notiflix';
 
 const Filter = ({ getNewFilters }) => {
@@ -20,6 +20,14 @@ const Filter = ({ getNewFilters }) => {
   ];
 
   const handleFilterClick = () => {
+    if (
+      selectedBrand === '' &&
+      selectedPrice === '' &&
+      maxValue === '' &&
+      minValue === ''
+    ) {
+      return getNewFilters(null);
+    }
     if (
       parseInt(minValue.replace(/,/g, ''), 10) >
       parseInt(maxValue.replace(/,/g, ''), 10)

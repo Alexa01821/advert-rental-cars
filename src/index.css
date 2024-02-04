@@ -11,6 +11,7 @@
   --gradient: rgba(18, 20, 23, 1), rgba(18, 20, 23, 0);
   --gradient-hero: rgba(18, 20, 23, 0.9), rgba(18, 20, 23, 0.4);
   --bg-select: rgba(52, 112, 255, 0.3);
+  --bg-modal-list: rgba(249, 249, 249, 1);
 
   /* text */
   --color-text: rgba(18, 20, 23, 1);
@@ -21,6 +22,7 @@
   --color-search-text: rgba(247, 247, 251, 1);
   --color-menu: rgba(247, 247, 251, 0.5);
   --color-search-dropdown: rgba(18, 20, 23, 0.05);
+  --color-text-modal-list: rgba(54, 53, 53, 1);
 
   /* border */
   --border-pr10: rgba(18, 20, 23, 0.1);
