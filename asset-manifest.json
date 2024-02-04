@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/advert-rental-cars/static/css/main.0371d648.css",
-    "main.js": "/advert-rental-cars/static/js/main.0d39dbd8.js",
+    "main.css": "/advert-rental-cars/static/css/main.8f5163b0.css",
+    "main.js": "/advert-rental-cars/static/js/main.e76fcf25.js",
     "static/media/Inter-Medium.ttf": "/advert-rental-cars/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
     "static/media/Montserrat-SemiBold.ttf": "/advert-rental-cars/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Regular.ttf": "/advert-rental-cars/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
@@ -9,11 +9,11 @@
     "static/media/Manrope-Medium.ttf": "/advert-rental-cars/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
     "static/media/Manrope-Regular.ttf": "/advert-rental-cars/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
     "index.html": "/advert-rental-cars/index.html",
-    "main.0371d648.css.map": "/advert-rental-cars/static/css/main.0371d648.css.map",
-    "main.0d39dbd8.js.map": "/advert-rental-cars/static/js/main.0d39dbd8.js.map"
+    "main.8f5163b0.css.map": "/advert-rental-cars/static/css/main.8f5163b0.css.map",
+    "main.e76fcf25.js.map": "/advert-rental-cars/static/js/main.e76fcf25.js.map"
   },
   "entrypoints": [
-    "static/css/main.0371d648.css",
-    "static/js/main.0d39dbd8.js"
+    "static/css/main.8f5163b0.css",
+    "static/js/main.e76fcf25.js"
   ]
 }
