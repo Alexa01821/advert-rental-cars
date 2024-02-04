@@ -66,7 +66,7 @@ const CarsModalStyled = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     .car-modal-item-conditions {
       padding: 7px 14px;
       border-radius: 35px;

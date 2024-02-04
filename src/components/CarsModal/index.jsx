@@ -74,7 +74,9 @@ const CarsModal = ({ carData }) => {
           <span className="car-modal-accent-conditions">{rentalPrice}$</span>
         </li>
       </ul>
-      <button className="car-modal-btn btn">Rental car</button>
+      <a href="tel:+110001111111" className="car-modal-btn btn">
+        Rental car
+      </a>
     </CarsModalStyled>
   );
 };
